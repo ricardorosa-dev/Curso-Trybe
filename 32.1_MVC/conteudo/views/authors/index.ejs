@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MVC - Exemplo</title>
+  </head>
+  <body>
+    <ul>
+      <% authors.forEach((authors) => { %>
+        <li><%= authors.name %></li>
+        <a href=<%= `/authors/${authors.id}` %>>Ver detalhes</a>
+      <% }) %>
+    </ul>
+    <a href="/authors/new">Criar novo autor</a>
+  </body>
+</html>
