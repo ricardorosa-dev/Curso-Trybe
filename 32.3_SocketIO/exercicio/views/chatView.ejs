@@ -1,0 +1,59 @@
+<html>
+  <head>
+    
+  <link rel="stylesheet" href="style.css" >
+  <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to Chat</h1>
+    <div class="container">
+      <div class="chatbox">
+        <ul id="mensagens"></ul>
+      </div>
+      <div class="usersDiv">
+        <h3>Users online</h3>
+        <ul id="usersList"></ul>
+      </div>
+    </div>
+    <form action="">
+      <input type="text" id="mensagemInput" autocomplete="off" autofocus />
+      <button type="submit">Enviar</button>
+    </form>
+    <script>
+      const socket = io();
+      const form = document.querySelector('form');
+      const input = document.querySelector('#mensagemInput');
+      
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        socket.emit('mensagem', input.value);
+        input.value = '';
+        return false;
+      });
+      
+      // cria li e coloca na mensagem
+      const createMessage = (message) => {
+        const messagesUl = document.getElementById('mensagens');
+        const li = document.createElement('li');
+        li.innerText = message;
+        messagesUl.appendChild(li);
+      };
+      
+      const createUsers = (users) => {
+        const usersList = document.getElementById('usersList');
+        
+        users.forEach(user => {
+          const li = document.createElement('li');
+          li.innerText = user;
+          usersList.appendChild(li);
+        });
+      }
+      
+      socket.on('ola', ({msg, users}) => {
+        createMessage(msg);
+        createUsers(users);
+      });
+      socket.on('mensagemNormal', ({ mensagem, user }) => createMessage(`${user}: ${mensagem}`));
+    </script>
+  </body>
+</html>

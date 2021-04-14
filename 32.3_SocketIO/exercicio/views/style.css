@@ -1,0 +1,34 @@
+.container {
+  /* border: 1px solid red; */
+}
+
+.chatbox {
+  border: 1px solid;
+  width: 500px;
+  height: 400px;
+  float: left;
+  /* background-color: red; */
+}
+
+.usersDiv {
+  border: 1px solid;
+  width: 200px;
+  height: 400px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.usersDiv h3 {
+  text-align: center;
+}
+
+input {
+  width: 440px;
+  font-size: 26px;
+}
+
+button {
+  height: 34px;
+  vertical-align:middle;
+  margin-top: -10px;
+}
