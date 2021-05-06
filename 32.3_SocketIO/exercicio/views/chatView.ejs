@@ -27,6 +27,7 @@
       form.addEventListener('submit', (e) => {
         e.preventDefault();
         socket.emit('mensagem', input.value);
+        socket.emit('testeVemPraMim')
         input.value = '';
         return false;
       });
@@ -53,6 +54,10 @@
         createMessage(msg);
         createUsers(users);
       });
+      
+      socket.on('msgServer', ({ msg }) => {
+        console.log(msg);
+      })
       socket.on('mensagemNormal', ({ mensagem, user }) => createMessage(`${user}: ${mensagem}`));
     </script>
   </body>

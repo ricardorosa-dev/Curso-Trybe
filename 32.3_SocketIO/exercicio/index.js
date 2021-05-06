@@ -26,6 +26,17 @@ io.on('connection', (socket) => {
     console.log('Usuário desconectado');
   });
   
+  socket.on('testeVemPraMim', () => {
+    // chega pra todo mundo
+    // io.emit('msgServer', { msg: 'mensagem pra todos' });
+    
+    // só pro cliente que mandou
+    // socket.emit('msgServer', { msg: 'só pro cliente que mandou' });
+    
+    // pra todo mundo MENOS pro cliente que mandou
+    socket.broadcast.emit('msgServer', { msg: 'pra todo mundo MENOS pro cliente que mandou' });
+  })
+  
   // socket.on('mensagem', (msg) => {
   //   console.log(`Mensagem de ${socket.id} para o admin: ${msg}`);
   // })
