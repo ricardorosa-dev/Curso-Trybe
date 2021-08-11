@@ -2,6 +2,7 @@
 
 <p>"A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso em tecnologia e que se compromete integralmente com seus estudantes.</p>
 <p>O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."</p>
+<p>O curso teve a duração de um ano, dividido em quatro seções: Fundamentos do Desenvolvimento Web, Desenvolvimento FrontEnd, Desenvolvimento BackEnd e Arquitetura de Computadores e Redes</p>
 
 <h1>Currículo e Projetos Realizados</h1>
 
