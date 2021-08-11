@@ -5,6 +5,7 @@
 <p>O curso teve a duração de um ano, dividido em quatro seções: Fundamentos do Desenvolvimento Web, Desenvolvimento FrontEnd, Desenvolvimento BackEnd e Arquitetura de Computadores e Redes</p>
 
 <h1>Currículo e Projetos Realizados</h1>
+PS: Todos os proejtos foram concluídos com sucesso e podem ser vistos nos meus repositórios. Porém, somente os que tem link aqui estão com um readme customizado. Estou atualmente editando o readme de todos para tornar mais claro. (Ago, 2021)
 
 <h2>Fundamentos do Desenvolvimento Web</h2>
 
