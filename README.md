@@ -20,7 +20,7 @@ PS: Todos os proejtos foram concluídos com sucesso e podem ser vistos nos meus 
 <h3>JavaScript, DOM, Eventos, Web Storage</h3>
 
 03. <a href="https://github.com/ricardorosa-dev/03-Project-Pixels-Art">Arte com Pixels</a>
-04. <a href="https://github.com/ricardorosa-dev/04-Project-Todo-List"Lista de Tarefas</a>
+04. <a href="https://github.com/ricardorosa-dev/04-Project-Todo-List">Lista de Tarefas</a>
 05. <a href="https://github.com/ricardorosa-dev/05-Project-Meme-Generator">Meme Generator</a>
 
 <h3>Formulários, Flexbox, CSS Responsivo
