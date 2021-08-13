@@ -19,18 +19,18 @@ PS: Todos os proejtos foram concluídos com sucesso e podem ser vistos nos meus 
 
 <h3>JavaScript, DOM, Eventos, Web Storage</h3>
 
-03. Arte com Pixels
-04. Lista de Tarefas
-05. Meme Generator
+03. <a href="https://github.com/ricardorosa-dev/03-Project-Pixels-Art">Arte com Pixels</a>
+04. <a href="https://github.com/ricardorosa-dev/04-Project-Todo-List"Lista de Tarefas</a>
+05. <a href="https://github.com/ricardorosa-dev/05-Project-Meme-Generator">Meme Generator</a>
 
 <h3>Formulários, Flexbox, CSS Responsivo
 
-06. Página Inicial (antiga) do Facebook / Facebook Signup
+06. Página Inicial (antiga) do Facebook / Facebook Signup Page
 
 <h3>ES6 e Testes unitários com Jest</h3>
 
-07. JavaScript Testes unitários
-08. Zoo Functions
+07. <a href="https://github.com/ricardorosa-dev/07-JavaScript-Unit-Tests">JavaScript Testes unitários</a>
+08. <a href="https://github.com/ricardorosa-dev/08-Zoo-Functions">Zoo Functions</a>
 
 <h3>JavaScript Assíncrono e Promises</h3>
 
@@ -130,8 +130,8 @@ PS: Todos os proejtos foram concluídos com sucesso e podem ser vistos nos meus 
 
 35. 38 Relatório de Estoque (oop)
 36. Algoritmos
+37. Restaurant Orders
 
 <h3>Estrutura de Dados: Hash, Set, Pilhas, Filas e Listas</h3>
 
-37. Restaurant Orders
-38. TING - Trybe Is Not Google
+38. <a href="https://github.com/ricardorosa-dev/38-Project-TING">TING - Trybe Is Not Google</a>
